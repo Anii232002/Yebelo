@@ -7,6 +7,7 @@ class Categories {
     if (identical(this, other)) return true;
     return other is Categories && other.name == name;
   }
+  //first commit
 
   @override
   int get hashCode => name.hashCode;
